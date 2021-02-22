@@ -1,0 +1,5 @@
+[workspace]
+members = [
+	"evm_asm_tool",
+	"json_logs_diff",
+]

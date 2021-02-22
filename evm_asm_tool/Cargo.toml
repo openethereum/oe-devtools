@@ -1,0 +1,24 @@
+[package]
+name = "evmcodegen"
+version = "0.1.0"
+authors = ["adria0 <adria@codecontext.io>"]
+edition = "2018"
+
+[dependencies]
+anyhow = "1.0.33"
+rustc-hex = "2.1.0"
+hex = "0.4.2"
+clap = "2.33.3"
+web3 = "0.8.0"
+easycontract = { git = "https://github.com/adria0/ethworkshop-rustfest" }
+hex-literal = "0.2.1"
+secp256k1 = "0.12.0"
+ethereum-tx-sign = "2.0.0"
+primitive-types = "0.6.1"
+log = "0.4.8"
+rand = "0.6.5"
+tiny-keccak = "1.5.0"
+ethabi = "8.0.0"
+zeroize = "1.0.0"
+serde = "1.0.102"
+futures = "0.1.29"
